@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>
+		Basic Example to Describe JavaScript
+	</title>
+</head>
+
+<body>
+	<script>
+        // var vs let
+        var h1 = "hello world - 1";
+        let h2 = "hello world - 2"; 
+
+		console.log(h1);
+        console.log(h2);
+        console.log(window.h1);
+        console.log(window.h2);
+
+        // var define una variable global o local en una función sin importar el ámbito del bloque.
+        var v1 = "out";
+        console.log("out", v1);
+        {
+            var v1 = "in";
+            console.log("in", v1);
+        }
+        console.log("out", v1);
+
+        // let permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando.
+        let v2 = "out";
+        console.log("out", v2);
+        {
+            let v2 = "in";
+            console.log("in", v2);
+        }
+        console.log("out", v2);
+
+        // const
+        const PI = 3.1416;
+        /*
+        las variables de tipo const deben ser inicializadas.
+        const error;
+
+        const en valores primitivos: no modificables
+        const en valores compuestos: modificables
+        */
+        
+        
+
+
+	</script>
+</body>
+
+</html>
