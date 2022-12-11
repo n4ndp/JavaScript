@@ -29,12 +29,12 @@ function f2()
 
 function f3(param1, param2)
 {
-    console.log("Hola, mi nombre es ", param1, " y tengo ", param2, " años.");
+    console.log("Hola, mi nombre es", param1, "y tengo", param2, "años.");
 }
 
 function f4(param1 = "x", param2 = "y")
 {
-    console.log("Hola, mi nombre es ", param1, " y tengo ", param2, " años.");
+    console.log("Hola, mi nombre es", param1, "y tengo", param2, "años.");
 }
 
 /*
