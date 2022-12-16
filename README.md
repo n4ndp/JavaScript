@@ -6,7 +6,7 @@ Once you have the fundamentals down, you'll apply that knowledge by creating alg
 
 Along the way, you'll also learn two important programming styles or paradigms: Object Oriented Programming (OOP) and Functional Programming (FP).
 
-# **Index**
+# **Table of Contents**
 
 - [Basic JavaScript](https://github.com/n4ndp/JavaScript/tree/main/Basic%20JavaScript)
 - [ES6]()
