@@ -14,6 +14,6 @@ Along the way, you'll also learn two important programming styles or paradigms: 
 
 # 
 
-- [Basic JavaScript]()
+- [Basic JavaScript](https://github.com/n4ndp/JavaScript/tree/main/Basic%20JavaScript)
 - [ES6]()
 - [Regular Expressions]()
