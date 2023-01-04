@@ -1,6 +1,6 @@
 # **Introducción a JS**
 
-## **a. Comentarios**
+## **a) Comentarios**
 
 Comentario de una sola linea:
 
@@ -15,7 +15,7 @@ Comentario de varias lineas:
 multi-line comment */
 ```
 
-## **b. Consola**
+## **b) Consola**
 
 Para acceder a la consola Javascript del navegador, podemos pulsar `CTRL` + `SHIFT` + `J`. (el atajo no funciona en todos los navegadores).
 
@@ -31,7 +31,7 @@ console.log("Hello World");
 | `console.error()` | Muestra información de error. Aparece en rojo. |
 | `console.clear()` | Limpia la consola. Equivalente escribir **clear()** |
 
-## **c. Variables**
+## **c) Variables**
 
 JavaScript proporciona ocho tipos de datos diferentes que son `undefined`, `null`, `boolean`, `string`, `symbol`, `bigint`, `number` y `object`.
 
