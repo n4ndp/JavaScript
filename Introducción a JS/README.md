@@ -62,7 +62,7 @@ console.log(notDefined.constructor.name); // ERROR, sólo funciona con variables
 
     OJO: Las mayúsculas y minúsculas en los nombres de las variables de Javascript importan. No es lo mismo una variable llamada precio que una variable llamada Precio, pueden contener valores diferentes.
 
-### **keyword: var**
+### **keyword: `var`**
 
 ```js
 console.log(myVar); // Muestra "undefined", en este punto la variable "myVar" no existe
@@ -106,7 +106,7 @@ console.log(myVar); // En esta línea el valor de "myVar" es 5
 
 Siempre que sea posible se debería utilizar `let` y `const`, en lugar de `var`. Declarar variables mediante `var` se recomienda en fases de aprendizaje o en el caso de que se quiera mantener compatibilidad con navegadores muy antiguos utilizando ECMAScript 5, sin embargo, hay estrategias mejores a seguir que utilizar `var` en la actualidad.
 
-### **keyword: let**
+### **keyword: `let`**
 
 En las versiones modernas de Javascript (ES6 o ECMAScript 2015) o posteriores, se introduce la palabra clave `let` en sustitución de `var`. Con ella, en lugar de utilizar los **ámbitos globales y a nivel de función** (`var`), utilizamos los ámbitos clásicos de programación: **ámbito global y ámbito local**.
 
@@ -128,7 +128,7 @@ for (var p = 0; p < 3; p++) {
 console.log("Después: ", p);    // Después: 3 (WTF!)
 ```
 
-### **keyword: const**
+### **keyword: `const`**
 
 De forma tradicional, Javascript no incorporaba constantes. Sin embargo, en ECMAScript 2015 (ES6) se añade la palabra clave `const`, que inicializada con un valor concreto, permite crear variables con valores que no pueden ser cambiados.
 
