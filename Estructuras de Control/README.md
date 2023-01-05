@@ -1,5 +1,12 @@
 # **Estructuras de Control**
 
+| Estructura de control | Descripción |
+|-|-|
+| `If` | **Condición simple**: Si ocurre algo, haz lo siguiente... |
+| `If` / `else` | **Condición con alternativa**: Si ocurre algo, haz esto, sino, haz lo esto otro... |
+| `?:` | **Operador ternario**: Equivalente a If/else, método abreviado. |
+| `Switch` | **Estructura para casos específicos**: Similar a varios If/else anidados. |
+
 ## **Condicional `If`**
 
 ```js
